@@ -219,7 +219,7 @@
 //if PREVENT_DANGEROUS_EXTRUDE is on, you can still disable (uncomment) very long bits of extrusion separately.
 #define PREVENT_LENGTHY_EXTRUDE
 
-#define EXTRUDE_MINTEMP 10 //170 HSB calibration
+#define EXTRUDE_MINTEMP 170
 #define EXTRUDE_MAXLENGTH (X_MAX_LENGTH+Y_MAX_LENGTH) //prevent extrusion of very large distances.
 
 /*================== Thermal Runaway Protection ==============================
@@ -336,7 +336,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // Travel limits after homing HSB
 #define X_MAX_POS 180
 #define X_MIN_POS 0
-#define Y_MAX_POS 180
+#define Y_MAX_POS 175
 #define Y_MIN_POS 0
 #define Z_MAX_POS 170
 #define Z_MIN_POS 0
